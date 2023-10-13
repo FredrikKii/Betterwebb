@@ -6,15 +6,16 @@
 }
 
 body {
-    background-image: url('https://github.com/FredrikKii/Betterwebb/blob/main/Recourses/13167.jpg?raw=true');
+    background-color: #8C52FF;
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0;
     padding: 0;
+    height: 100vh;
     
 }
 header {
-    background-color: transparent;
+    background-color: #8C52FF;
     backdrop-filter: blur(3px);
     color: #fff;
     padding: 20px;
@@ -40,122 +41,7 @@ a {
     text-decoration: none;
     color: #fff;
 }
-.reg {
-    height: 100vh;
-}
 
-form {
-    border: 2px solid rgb(109, 109, 109);
-    margin: 50px auto 0;
-    padding: 0 1em;
-    background-color: transparent;
-    backdrop-filter: blur(3px);
-    width: 400px;
-    height: 600px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border-radius: 10px;
-    box-shadow: 8px 7px 5px black;
-  }
-  .form-section {
-    margin: 6px;
-    border-radius: 10px;
-  }
-  
-  .form-section.row {
-      flex-direction: row;
-  }
-  button[type="submit"] {
-    background-color: #eeeeee;
-    color: #000000;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 25px;
-    cursor: pointer;
-    margin-top: 10em;
-  }
-  button[type="submit"]:hover {
-    background-color: #999999;
-  }
-  :valid {
-    border: 2px solid rgb(0, 255, 13);
-    border-radius: 5px;
-  }
-  :invalid {
-    border: 2px solid rgb(255, 0, 0);
-    border-radius: 5px;
-  }
-  .error-message {
-    display: none;
-  }
-  input:invalid + .error-message {
-    display: block;
-    margin: 0;
-    color: rgb(255, 255, 255);
-  }
-  h1{
-    text-align: center;
-    margin-top: -6em;
-    font-size: 2em;
-    font-weight: 600;
-    background-image: linear-gradient(to left, #ffffff, #dcb9ff);
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
-  }
-  h2{
-    text-align: center;
-    margin-top: 0em;
-    font-size: 4em;
-    font-weight: 600;
-    background-image: linear-gradient(to left, #ffffff, #dcb9ff);
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
-  }
-  .parent {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    grid-column-gap: 4px;
-    grid-row-gap: 4px;
-  }
-    
-    .div1 { grid-area: 1 / 1 / 2 / 2; }
-    .div2 { grid-area: 1 / 2 / 2 / 3; }
-    .div3 { grid-area: 1 / 3 / 2 / 4; }
-    .div4 { grid-area: 1 / 4 / 2 / 5; }
-    .div5 { grid-area: 2 / 1 / 3 / 2; }
-    .div6 { grid-area: 2 / 2 / 3 / 3; }
-    .div7 { grid-area: 2 / 3 / 3 / 4; }
-    .div8 { grid-area: 2 / 4 / 3 / 5; }
-    .div9 { grid-area: 3 / 1 / 4 / 3; }
-    .div10 { grid-area: 3 / 3 / 4 / 5; }
-
-
-
-    .parent > div {
-        border: 2px solid rgb(255, 255, 255);
-        margin: 10px;
-    }
-
-.seminarie {
-  color: rgb(235, 235, 235);
-  padding: 20px;
-  margin: 10px;
-}
-
-
-.parent div {
-  border: 2px solid white;
-  border-radius: 10px;
-  text-align: center;
-  font-size: 2em;
-  box-shadow: 3px 3px 3px black;
-  backdrop-filter: blur(3px);
-}
 .footer {
   background-color: transparent;
   backdrop-filter: blur(3px);
@@ -183,15 +69,6 @@ form {
   border: 2px solid red;
 }
 
-/* Responsiva-delen */
-@media (max-width: 768px) {
-  header {
-      font-size: 1em;
-      padding: 10px;
-      display: flex;
-      justify-content: center;
-  }
-
   ul {
       margin-top: 10px;
   }
@@ -199,23 +76,15 @@ form {
   li {
       margin-right: 10px;
   }
-}
-
-@media (max-width: 768px) {
-  form {
-      width: 50%;
+  .logga-container {
+   text-align: center;
   }
-
-  /* Add additional styles as needed */
-}
-
-@media (max-width: 768px) {
-  .footer {
-      margin-top: 10em;
+  
+  h1 {
+    text-align: center;
+    font-size: 2em;
+    background-image: linear-gradient(to left, #ffffff, #dcb9ff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
   }
-}
-@media (min-width: 375px) {
-  form {
-      width: 375px;
-  }
-}

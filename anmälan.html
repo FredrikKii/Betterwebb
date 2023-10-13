@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="anmälan.css">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
+    <title>Bättre Webb</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+               <li><a href="index.html">Hem</a></li>
+               <li><a href="anmälan.html">Anmälan</a></li>
+               <li><a href="seminarier.html">Seminarier</a></li>
+               <li><a href="contact.html">Kontakta oss</a></li>
+            </ul>
+        </nav>
+  </header>
+    <section id="reg" class="reg">
+        <form>
+            <h1>Anmäl dig till eventet här!</h1>
+            <section class="form-section">
+                <label for="form-fname"> Förnamn </label>
+                <input id="form-fname" type="text" required value="" placeholder="John" />
+            </section>
+            <section class="form-section">
+                <label for="form-lname"> Efternamn </label>
+                <input id="form-lname" type="text" required value="" placeholder="Doe" />
+                <p class="error-message"></p>
+            </section>
+            
+            <section class="form-section">
+                <label for="form-email"> E-postadress </label>
+                <input id="form-email" type="text" required value="" placeholder="john.doe@battrewebb.se" />
+                <p class="error-message"></p>
+            </section>
+    
+            <section class="form-section">
+                <label for="form-street"> Gatuadress </label>
+                <input id="form-street" type="text" required value="" placeholder="Stigen 11" />
+            </section>
+            <section class="form-section">
+                <label for="form-zip"> Postnummer </label>
+                <input id="form-zip" type="text" required value="" placeholder="415 23" />
+            </section>
+            <section class="form-section">
+                <label for="form-state"> Stad </label>
+                <input id="form-state" type="text" required value="" placeholder="Göteborg" />
+                <p class="error-message"></p>
+            </section>
+            
+            <section class="form-section">
+                <label class="container">Dag 1
+                    <input type="checkbox" checked="checked">
+                    <span class="checkmark"></span>
+                  </label>
+                  <label class="container">Dag 2
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                  </label>
+                  <label class="container">Dag 3
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                  </label>    
+            </section>
+    
+            <section class="form-section">
+                <button type="submit"> Skicka in din anmälan </button>
+            </section>
+    
+        </form>
+    </section>
+    <section id="footer" class="footer">
+        <footer>
+        <h1>Bättre Webb</h1>
+        <ul>
+            <li>Seminariegatan 12b</li>
+            <li>415 23</li>
+            <li>Göteborg</li>
+         </ul>
+        </footer>
+</body>
+</html>
