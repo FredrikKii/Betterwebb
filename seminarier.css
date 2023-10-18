@@ -30,10 +30,7 @@ h1 {
     margin-top: 0em;
     font-size: 4em;
     font-weight: 600;
-    background-image: linear-gradient(to left, #ffffff, #dcb9ff);
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
+    color: white;
   }
    
   .parent {
@@ -54,7 +51,6 @@ h1 {
     .parent > div {
         border: 2px solid rgb(255, 255, 255);
         margin: 10px;
-        /* max-width: 700px;  */
     }
 
 .seminarie {
@@ -74,8 +70,8 @@ h1 {
 
 
 .parent div {
-  border: 2px solid white;
-  background-color: rgb(65, 0, 218);
+  border: 2px solid rgb(132, 0, 255);
+  background-color: rgb(118, 59, 255);
   border-radius: 10px;
   text-align: center;
   font-size: 2em;
@@ -98,7 +94,7 @@ h1 {
  .parent div:hover {
     transform: scale(1.05);
     transition: transform 0.5s ease;
-    background-color:#5400fd;
+    background-color:#7129ff;
     box-shadow: 0px 0px 20px 10px rgb(248, 248, 248);
   }
 
@@ -110,4 +106,9 @@ h1 {
   h3 {
     text-align: center;
     color: orange;
+  }
+  @media (max-width: 713px) {
+    a {
+      font-size: 0.7em;
+    }
   }

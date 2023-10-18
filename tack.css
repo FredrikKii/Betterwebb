@@ -87,7 +87,7 @@ h2{
 
 .footer li {
   font-size: 22px;
-  margin: 5px 0; /* Add some space between each list item */
+  margin: 5px 0;
 }
 .info {
   display: flex;

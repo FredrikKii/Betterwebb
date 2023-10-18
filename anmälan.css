@@ -39,7 +39,7 @@ form {
     margin: 6px;
   }
 .form-section input {
-    border-radius: 10px;
+    /* border-radius: 10px; */
 }
   .parent div {
    border-radius: 10px;
@@ -89,5 +89,27 @@ form {
   
   .footer li {
     font-size: 22px;
-    margin: 5px 0; /* Add some space between each list item */
+    margin: 5px 0; 
+  }
+
+  h2 {
+  text-align: center;
+  margin-top: 0em;
+  font-size: 4em;
+  font-weight: 600;
+  color: white;
+}
+
+  @media (max-width: 713px) {
+    h2 {
+      font-size: 2em;
+    }
+    a {
+      font-size: 0.7em;
+    }
+  }
+  input {
+    padding:0px;
+    border-radius:10px;
+    /* width: 103px; */
   }

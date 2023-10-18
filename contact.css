@@ -3,10 +3,7 @@ h2{
     margin-top: 0em;
     font-size: 4em;
     font-weight: 400;
-    background-image: linear-gradient(to left, #ffffff, #dcb9ff);
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
+    color: white;
   }
 
 form {
@@ -20,8 +17,8 @@ form {
   margin-top: 1em;
 }
 .meddelande-area {
-  height: 500px;
-  width: 500px;
+  height: 3em;
+  width: 320px;
 }
 .form label,
 .form input,
@@ -33,34 +30,32 @@ input {
   text-align: center;
 }
 button[type="button"] {
-  background-color: #eeeeee;
+  background-color: #8a24ff;
+  border: 2px solid purple;
+  box-shadow: 0px 0px 8px rgba(0,0,0,.6);
   color: #000000;
   padding: 10px 20px;
   border: none;
   border-radius: 25px;
   cursor: pointer;
-  margin-top: 1em;
+  margin-top: -1em;
 }
 button[type="button"]:hover {
-  background-color: #999999;
+  background-color: #6715ff;
   box-shadow: 0px 0px 20px 10px rgb(248, 248, 248);
 }
-
-
-@media (max-width: 768px) {
-  form {
-      width: 100%;
-  }
-
+input {
+  padding:10px;
+  border-radius:10px;
 }
-
-@media (max-width: 768px) {
-  .footer {
-      margin-top: 10em;
-  }
+textarea {
+  padding:0;
+  border-radius:10px;
+  text-align: center;
+  box-shadow: 0px 0px 8px rgba(0,0,0,.6);
 }
-@media (min-width: 375px) {
-  form {
-      width: 375px;
+@media (max-width: 713px) {
+  a {
+    font-size: 0.7em;
   }
 }
