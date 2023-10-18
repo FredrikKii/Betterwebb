@@ -21,14 +21,14 @@
   </header>
     <section id="reg" class="reg">
         <form>
-            <h1>Anmäl dig till eventet här!</h1>
+            <h2>Anmäl dig till eventet här!</h2>
             <section class="form-section">
                 <label for="form-fname"> Förnamn </label>
-                <input id="form-fname" type="text" required value="" placeholder="John" />
+                <input id="form-fname" type="text" required pattern="[A-Za-z]+" value="" placeholder="John" />
             </section>
             <section class="form-section">
                 <label for="form-lname"> Efternamn </label>
-                <input id="form-lname" type="text" required value="" placeholder="Doe" />
+                <input id="form-lname" type="text" required pattern="[A-Za-z]+" value="" placeholder="Doe" />
                 <p class="error-message"></p>
             </section>
             
@@ -44,7 +44,7 @@
             </section>
             <section class="form-section">
                 <label for="form-zip"> Postnummer </label>
-                <input id="form-zip" type="text" required value="" placeholder="415 23" />
+                <input id="form-zip" type="text" required pattern="[0-9]+" value="" placeholder="415 23" />
             </section>
             <section class="form-section">
                 <label for="form-state"> Stad </label>
@@ -66,9 +66,23 @@
                     <span class="checkmark"></span>
                   </label>    
             </section>
+            <section>
+            <label for="mat">Välj mat:</label>
+            <select id="mat" name="mat">
+                <option Value="meat">Kött</option>
+                <option Value="fisk">Fisk</option>
+                <option Value="veg">Vegetarisk</option>
+            </select>
+        </section>
+        <section class="form-section">
+            <label for="form-allergier"> Allergier </label>
+            <input id="form-allergier" type="text"  value="" placeholder="Ex. Nötallergi" />
+        </section>
     
             <section class="form-section">
-                <button type="submit"> Skicka in din anmälan </button>
+                <a href="tack.html">
+                    <button type="button">Skicka in din anmälan</button>
+                </a>
             </section>
     
         </form>
@@ -77,7 +91,7 @@
         <footer>
         <h1>Bättre Webb</h1>
         <ul>
-            <li>Seminariegatan 12b</li>
+            <li>Svenska Mässan,</li>
             <li>415 23</li>
             <li>Göteborg</li>
          </ul>
