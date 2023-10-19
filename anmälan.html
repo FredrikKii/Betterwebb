@@ -47,27 +47,12 @@
             </section>
             <section class="form-section">
                 <label class="form-label" for="form-state"> Stad </label>
-                <input id="form-state" type="text" required pattern="[A-Za-z]+" value="" placeholder="Göteborg" />
+                <input id="form-state" type="text" required pattern="[A-Za-zåäöÅÄÖ]+" value="" placeholder="Göteborg" />
             </section>
             
-            <section class="dagspass">
-                <div class="dag">
-                <label class="container">Dag 1
-                    <input class="box" type="checkbox" checked="checked">
-                    <span class="checkmark"></span>
-                  </label>
-                  <label class="container">Dag 2
-                    <input type="checkbox">
-                    <span class="checkmark"></span>
-                  </label>
-                  <label class="container">Dag 3
-                    <input type="checkbox">
-                    <span class="checkmark"></span>
-                  </label>
-                </div>
-            </section>
+            
             <section class="form-section">
-            <label class="form-label" for="mat">Välj mat:</label>
+            <label class="form-label" for="mat">Välj mat</label>
             <select id="mat" name="mat">
                 <option Value="meat">Kött</option>
                 <option Value="fisk">Fisk</option>
@@ -77,6 +62,23 @@
         <section class="form-section">
             <label class="form-label" for="form-allergier"> Allergier </label>
             <input id="form-allergier" type="text"  value="" placeholder="Ex. Nötallergi" />
+        </section>
+
+        <section class="form-section">
+            <div class="dag">Välj dag(ar):
+            <label class="container">Dag 1
+                <input class="box" type="checkbox" checked="checked">
+                <span class="checkmark"></span>
+              </label>
+              <label class="container">Dag 2
+                <input type="checkbox">
+                <span class="checkmark"></span>
+              </label>
+              <label class="container">Dag 3
+                <input type="checkbox">
+                <span class="checkmark"></span>
+              </label>
+            </div>
         </section>
             <section class="knapp">
                 <button type="submit">Skicka in din anmälan</button>

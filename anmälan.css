@@ -56,7 +56,8 @@ form {
     border: none;
     border-radius: 25px;
     cursor: pointer;
-    margin-top: 5em;
+    margin-top: 2em;
+    font-weight: bold;
   }
   button[type="submit"]:hover {
     background-color: #999999;
@@ -109,15 +110,22 @@ form {
       font-size: 0.7em;
     }
   }
-  input {
+  select, input {
     padding:0px;
     border-radius:10px;
     height: 24px;
   }
-  .form-label {
+  select, .form-label {
     min-width: 120px;
 }
-input[type=text] {
+select, input[type=text] {
 width: 180px;
 margin: 2px;
+}
+.container {
+margin-left: 10px;
+}
+#mat {
+  width: 184px;
+  height: 28px;
 }
