@@ -25,11 +25,11 @@
                     <section class="form-section">
                         <div class="form-container"></div>
                          <label for="form-fname"> Förnamn </label>
-                         <input id="form-fname" type="text" required pattern="[A-Za-z]+" value="" placeholder="John" />
+                         <input id="form-fname" type="text" required pattern="[A-Za-zåäöÅÄÖ]+" value="" placeholder="John" />
                      </section>
                     <section class="form-section">
                 <label for="form-lname"> Efternamn </label>
-                <input id="form-lname" type="text" required pattern="[A-Za-z]+" value="" placeholder="Doe" />
+                <input id="form-lname" type="text" required pattern="[A-Za-zöäöÅÄÖ]+" value="" placeholder="Doe" />
                 <p class="error-message"></p>
                      </section>
             
@@ -82,9 +82,7 @@
         </section>
     
             <section class="form-section">
-                <a href="tack.html">
-                    <button type="button">Skicka in din anmälan</button>
-                </a>
+                <button type="submit">Skicka in din anmälan</button>
             </div>
             </section>
         </form>
