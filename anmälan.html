@@ -40,6 +40,7 @@
                 <label class="form-label" for="form-street"> Gatuadress </label>
                 <input id="form-street" type="text" required value="" placeholder="Stigen 11" />
             </section>
+            
             <section class="form-section">
                 <label class="form-label" for="form-zip"> Postnummer </label>
                 <input id="form-zip" type="text" required pattern="[0-9]+" value="" placeholder="415 23" />
@@ -49,7 +50,8 @@
                 <input id="form-state" type="text" required pattern="[A-Za-z]+" value="" placeholder="Göteborg" />
             </section>
             
-            <section class="form-section">
+            <section class="dagspass">
+                <div class="dag">
                 <label class="container">Dag 1
                     <input class="box" type="checkbox" checked="checked">
                     <span class="checkmark"></span>
@@ -62,7 +64,7 @@
                     <input type="checkbox">
                     <span class="checkmark"></span>
                   </label>
-                      
+                </div>
             </section>
             <section class="form-section">
             <label class="form-label" for="mat">Välj mat:</label>
@@ -76,7 +78,6 @@
             <label class="form-label" for="form-allergier"> Allergier </label>
             <input id="form-allergier" type="text"  value="" placeholder="Ex. Nötallergi" />
         </section>
-    
             <section class="knapp">
                 <button type="submit">Skicka in din anmälan</button>
             </div>

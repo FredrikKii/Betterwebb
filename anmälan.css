@@ -112,10 +112,12 @@ form {
   input {
     padding:0px;
     border-radius:10px;
+    height: 24px;
   }
   .form-label {
     min-width: 120px;
 }
 input[type=text] {
 width: 180px;
+margin: 2px;
 }
